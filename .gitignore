@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Pytorch logging
+runs/
+
 # IDE
 .idea
 .vscode
@@ -10,6 +13,3 @@ __pycache__/
 # Data
 data/*
 learning_data/*
-
-# Pytorch logging
-runs
