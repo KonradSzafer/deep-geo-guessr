@@ -9,11 +9,15 @@ The goal is to create a neural network that can predict a label for a given Goog
 Data was collected from 5 different countries: France, Greece, Portugal, Spain and Switezerland.\
 The dataset is balanced and each class contains 1000 samples with a resolution of 800x800px.
 
-<img src="images/france0.png" alt="drawing" width="200"/>
-<img src="images/greece0.png" alt="drawing" width="200"/>
-<img src="images/portugal0.png" alt="drawing" width="200"/>
-<img src="images/spain0.png" alt="drawing" width="200"/>
-<img src="images/switzerland0.png" alt="drawing" width="200"/>
+<p float="left">
+    <img src="images/france0.png" alt="drawing" width="200"/>
+    <img src="images/greece0.png" alt="drawing" width="200"/>
+    <img src="images/portugal0.png" alt="drawing" width="200"/>
+</p>
+<p float="left">
+    <img src="images/spain0.png" alt="drawing" width="200"/>
+    <img src="images/switzerland0.png" alt="drawing" width="200"/>
+</p>
 
 For better accuracy and to prevent overfitting of the model, data augmentation was used.\
 Due to the use of ResNet, data is normalized with ImageNet values.
