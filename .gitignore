@@ -6,8 +6,9 @@ __pycache__/
 # Models
 *.ckpt
 
-# Pytorch logging
+# Logging
 runs/
+wandb/
 
 # IDE
 .idea
