@@ -14,7 +14,8 @@ wandb/
 .idea
 .vscode
 
-# Train scripts
+# Tools and train scripts
+convert.sh
 torch/country_classification_torch.py
 
 # Data
